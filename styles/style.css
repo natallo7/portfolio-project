@@ -3,6 +3,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #cabbe9;
+  --hover-color: #faf3fc;
 }
 
 h1,
@@ -25,6 +26,10 @@ h2 {
   font-size: 57px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -33,10 +38,51 @@ p {
 
 a {
   text-decoration: none;
+  font-family: var(--default-font-family);
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+  text-decoration: underline;
+}
+
+footer .contact-icons a {
+  color: var(--branding-color);
+  margin: 0 20px;
+  background: var(--secondary-color);
+  padding: 10px 19px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+footer .contact-icons a:hover {
+  color: var(--hover-color);
+  transition: all 100ms ease-in-out;
 }
 
 .hero {
@@ -61,10 +107,6 @@ a:hover {
 .about-picture {
   width: 500px;
   border-radius: 8px;
-}
-
-.contact-icons {
-  font-weight: 900;
 }
 
 .content-container {
@@ -122,11 +164,8 @@ a:hover {
 
 .btn-branding-outline:hover {
   background: var(--branding-color);
-  color: white;
-}
-
-.project-description {
-  padding: 5px 60px;
+  color: var(--hover-color);
+  transition: all 150ms ease-in-out;
 }
 
 .navbar {
@@ -146,6 +185,10 @@ a:hover {
 
 .navbar-toggler {
   color: var(--secondary-color);
+}
+
+.project-description {
+  padding: 5px 60px;
 }
 
 @media (max-width: 960px) {
