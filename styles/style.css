@@ -26,7 +26,7 @@ h2 {
   font-size: 57px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -88,7 +88,7 @@ footer .contact-icons a:hover {
 .hero {
   text-align: center;
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -105,12 +105,12 @@ footer .contact-icons a:hover {
 }
 
 .about-picture {
-  width: 500px;
+  width: 400px;
   border-radius: 8px;
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -139,7 +139,7 @@ footer .contact-icons a:hover {
 }
 
 .contact-icons {
-  font-size: 50px;
+  font-size: 60px;
   color: var(--branding-color);
 }
 
@@ -179,8 +179,9 @@ footer .contact-icons a:hover {
 }
 
 .nav-link:hover,
+.navbar-brand,
 .nav-link.active {
-  color: #faf3fc;
+  color: var(--hover-color) !important;
 }
 
 .navbar-toggler {
@@ -199,10 +200,6 @@ footer .contact-icons a:hover {
 
   h2 {
     font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .project-description {
