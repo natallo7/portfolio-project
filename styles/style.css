@@ -107,6 +107,7 @@ footer .contact-icons a:hover {
 .about-picture {
   width: 400px;
   border-radius: 8px;
+  margin: 0 auto;
 }
 
 .content-container {
