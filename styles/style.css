@@ -162,11 +162,16 @@ footer .contact-icons a:hover {
   color: var(--branding-color);
 }
 
+.btn-branding:hover,
+.btn-branding-outline:hover {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
 .btn-branding-outline:hover {
   background: var(--branding-color);
   color: var(--hover-color);
   transition: all 150ms ease-in-out;
-  text-decoration: none;
 }
 
 .navbar {
