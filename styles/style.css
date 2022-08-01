@@ -204,6 +204,7 @@ footer .contact-icons a:hover {
 
 .skills-logo {
   width: 60px;
+  height: 60px;
 }
 
 .skillset-container {
@@ -213,11 +214,14 @@ footer .contact-icons a:hover {
 
 .skillset-content ul {
   list-style: none;
+  margin: 0;
 }
 
 .skillset-content li {
+  display: inline-block;
   text-align: center;
   padding: 8px;
+  margin: 15px 20px 0 0;
 }
 
 .skillset-content h3 {
